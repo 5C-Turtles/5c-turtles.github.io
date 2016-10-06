@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 C Turtles Homepage</title>
+    <link rel="icon" type="image/png" href="Favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/materialize.min.js"></script>
+    <style>
+        .centered {
+            text-align: center;
+        }
+
+        .pompiere {
+            font-family: 'Pompiere', cursive;
+            font-size: 20px;
+        }
+
+        nav {
+            position: fixed !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="light-green lighen-2">
+        <div class="nav-wrapper ">
+            <a href="index.html" class="brand-logo" style="margin-left: 15px;"><img src="Logo.png" alt="The 5C Turtles" height="42" width="42"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="game.html">Games</a>
+                </li>
+                <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
+                </li>
+                <li><a href="sources.html">Sources</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="game.html">Games</a>
+                </li>
+                <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
+                </li>
+                <li><a href="sources.html">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="parallax-container">
+        <div class="parallax"><img src="babyturtle.jpg"></div>
+    </div>
+    <div class="section white pompiere">
+        <div class="row container">
+            <h2 class="centered">Games</h2>
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/124304150/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/122210973/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/124319578/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <a class="btn centered" onclick="Materialize.toast('Save the sea turtles!!! :)', 4000, 'rounded')">Save the sea turtles! :)</a>
+        </div>
+        <script>
+            $(document).ready(function() {
+                $('.parallax').parallax();
+            });
+        </script>
+</body>
+
+</html>

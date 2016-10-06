@@ -21,22 +21,26 @@
 </head>
 
 <body>
-    <nav class="light-green lighen-2 pompiere">
+    <nav class="light-green lighen-2">
         <div class="nav-wrapper ">
-            <a href="index.html" class="brand-logo" style="margin-left: 15px;">The 5C Turtles</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="https://scratch.mit.edu/projects/122210973/">Game</a>
-                </li>
-                <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
-                </li>
-            </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="https://scratch.mit.edu/projects/122210973/">Game</a>
-                </li>
-                <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
-                </li>
-            </ul>
+            <a href="index.html" class="brand-logo" style="margin-left: 15px;"><img src="Logo.png" alt="The 5C Turtles" height="42" width="42"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="game.html">Games</a>
+                    </li>
+                    <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
+                    </li>
+                    <li><a href="sources.html">Sources</a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="game.html">Games</a>
+                    </li>
+                    <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
+                    </li>
+                    <li><a href="sources.html">Sources</a>
+                    </li>
+                </ul>
         </div>
     </nav>
     <div class="parallax-container pompiere">
@@ -46,13 +50,30 @@
             <div class="row container">
                 <h2 class="centered">Sources</h2>
                 <ol class="grey-text text-darken-3 lighten-3">
-                  <li><a href="http://www.explainthatstuff.com/bioplastics.html">Explain that stuff</a></li>
-                  <li>This email from the Dear turtle hospital, I am a student at Castilleja School in Palo Alto, California. Some of my classmates and I are competing in the First Lego League, a robotics competition. This years
-                    theme is Animal Allies. My team and I decided to do our project on sea turtles. We have to realize a problem and come up with an innovative solution. We quickly realized the biggest problem is plastic bags. We were wondering if you
-                    knew if biodegradable bags were okay for sea turtles.</li>
-                    <a href="http://www.scientificamerican.com/article/how-fertilizers-harm-earth/"></a> http://blog.nature.org/conservancy/2010/03/23/how-lawn-chemicals-affect-the-oceans-how-you-can-help/" http://www.howtocakethat.com/edible-gelatin-plastic.html
-                    Plastic bags https://seaworld.org/en/animal-info/animal-infobooks/sea-turtles/diet-and-eating-habits food https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles petion
-                    http://www.defenders.org/sites/default/files/publications/five-things-you-can-do-to-save-sea-turtles.pdf
+                    <li><a href="http://www.explainthatstuff.com/bioplastics.html">Explainthatstuff.com</a></li>
+                    <!--<li>This email to the turtle hospital
+                    <br />Dear turtle hospital,
+                    <br /><br />I am a student at Castilleja School in Palo Alto, California. Some of my classmates and I are competing in the First Lego League, a robotics competition. This years theme is Animal Allies.
+                        My team and I decided to do our project on sea turtles. We have to realize a problem and come up with an innovative solution. We quickly realized the biggest problem is plastic bags. We were wondering if you knew if biodegradable
+                        bags were okay for sea turtles.</li>-->
+                    <li>
+                        <a href="http://www.scientificamerican.com/article/how-fertilizers-harm-earth/">Scientificamerican.com</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.nature.org/conservancy/2010/03/23/how-lawn-chemicals-affect-the-oceans-how-you-can-help/">Nature.org</a>
+                    </li>
+                    <li>
+                        <a href="http://www.howtocakethat.com/edible-gelatin-plastic.html">howtocakethat.com</a>
+                    </li>
+                    <li>
+                        <a href="https://seaworld.org/en/animal-info/animal-infobooks/sea-turtles/diet-and-eating-habits">Sea World</a>
+                    </li>
+                    <li>
+                        <a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Our petition</a>
+                    </li>
+                    <li>
+                        <a href="http://www.defenders.org/sites/default/files/publications/five-things-you-can-do-to-save-sea-turtles.pdf">Defenders.org</a>
+                    </li>
                 </ol>
             </div>
         </div>
