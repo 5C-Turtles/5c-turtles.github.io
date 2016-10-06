@@ -33,19 +33,19 @@
             <a href="index.html" class="brand-logo" style="margin-left: 15px;"><img src="Logo.png" alt="The 5C Turtles" height="42" width="42"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="game.html">Games</a>
+                <li><a href="Game">Games</a>
                 </li>
                 <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
                 </li>
-                <li><a href="sources.html">Sources</a>
+                <li><a href="Sources">Sources</a>
                 </li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
-                <li><a href="game.html">Games</a>
+                <li><a href="Game">Games</a>
                 </li>
                 <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
                 </li>
-                <li><a href="sources.html">Sources</a>
+                <li><a href="Sources">Sources</a>
                 </li>
             </ul>
         </div>
