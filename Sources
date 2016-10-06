@@ -1,61 +1,69 @@
 <!DOCTYPE html>
 
 <html>
-    <head profile="http://www.w3.org/2005/10/profile">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>5 C Turtles Homepage</title>
-        <link rel="icon" type="image/png" href="Favicon.png">
-        <style>
-        .centered {
-          text-align: center;
-        }
-        </style>
-    </head>
 
-    <body>
-        <nav class="light-green lighen-2">
-            <div class="nav-wrapper ">
-                 <a href="index.html" class="brand-logo" style="margin-left: 15px;">The 5C Turtles</a>
-                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="https://scratch.mit.edu/projects/122210973/">Game</a>
-                    </li>
-                    <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
-                    </li>
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="https://scratch.mit.edu/projects/122210973/">Game</a>
-                    </li>
-                    <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="parallax-container">
-            <div class="parallax"><img src="babyturtle.jpg"></div>
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 C Turtles Homepage</title>
+    <link rel="icon" type="image/png" href="Favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+    <style>
+        .centered {
+            text-align: center;
+        }
+
+        .pompiere {
+            font-family: 'Pompiere', cursive;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="light-green lighen-2 pompiere">
+        <div class="nav-wrapper ">
+            <a href="index.html" class="brand-logo" style="margin-left: 15px;">The 5C Turtles</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="https://scratch.mit.edu/projects/122210973/">Game</a>
+                </li>
+                <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="https://scratch.mit.edu/projects/122210973/">Game</a>
+                </li>
+                <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
+                </li>
+            </ul>
         </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="centered">Why</h2>
-      <p class="grey-text text-darken-3 lighten-3">Sea turtles have sadly been endangered and not one species but all of them and some are even extinct. Sea turtles have been endangered for the easily changed things like lights. Sea turtles use the moonlight to guide them into the ocean but by turning on the lights you guide them the wrong way (which could be a car.) Also the population has been dropping tremendously because of illegal poaching and trading. It so sad because sea turtles have been helping this planet for so long by; cutting the seagrass and making sure that the seagrass is at an healthy height. If the sea turtles were not there then the seagrass would die and then many animal that live there would die.</p>
-      <h2 class="centered">Turtles</h2>
-      <p>   There are many types of sea turtles such as, Green turtles but, Green, Leatherback, Loggerhead, Hawksbill, Kemp's Ridley, Olive Ridley and Flatback Sea Turtles, are the only species, That are not extinct yet. Many have been hurt like in <a href="http://news.nationalgeographic.com/2016/06/sea-turtle-stepped-on-for-selfies-injured-rehabilitation-lebanon-beach/">this article</a>.
-        <br />  Sea turtles have been on this planet for 65 million years (near the time of dinosaurs)  They are the ancestors of this earth, so why don’t we treat them with respect. Sea turtles are the animals are the one animals that have always been ignored, Even though they have done so much for us. Sea turtles, were thought to hold the world on their backs and if sea turtles were to be extinct the world would end. Which I believe is true,not in the extreme way where the world would blow up. In the way that the ecosystem and us will become weak.</p>
-      <h2 class="centered">Solutions</h2>
-    </p>  Since sea turtles help us in so many ways, we should help them and these are a few ways to help.
-    <br />  Unnecessary lighting (like flashlights and camera flashes etc.)
-    <br />  The reason why is because Sea turtles use moonlight reflecting off the ocean to guide them there, but when other people turn on their lights at night it could lead them into different and dangerous places. Like sewers and roads.
-    <br />  Reduce the Amount of Chemicals You Use. The chemicals you use on your lawn and in your home can actually wash into the coastal waters – killing plants and animals. It is very important to properly dispose of toxic chemicals and, even better, find alternative products such as biodegradable solutions.</p>
-    </div>
-  </div>
+    </nav>
+    <div class="parallax-container pompiere">
+        <div class="parallax"><img src="babyturtle.jpg">
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="centered">Sources</h2>
+                <ol class="grey-text text-darken-3 lighten-3">
+                  <li><a href="http://www.explainthatstuff.com/bioplastics.html">Explain that stuff</a></li>
+                  <li>This email from the Dear turtle hospital, I am a student at Castilleja School in Palo Alto, California. Some of my classmates and I are competing in the First Lego League, a robotics competition. This years
+                    theme is Animal Allies. My team and I decided to do our project on sea turtles. We have to realize a problem and come up with an innovative solution. We quickly realized the biggest problem is plastic bags. We were wondering if you
+                    knew if biodegradable bags were okay for sea turtles.</li>
+                    <a href="http://www.scientificamerican.com/article/how-fertilizers-harm-earth/"></a> http://blog.nature.org/conservancy/2010/03/23/how-lawn-chemicals-affect-the-oceans-how-you-can-help/" http://www.howtocakethat.com/edible-gelatin-plastic.html
+                    Plastic bags https://seaworld.org/en/animal-info/animal-infobooks/sea-turtles/diet-and-eating-habits food https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles petion
+                    http://www.defenders.org/sites/default/files/publications/five-things-you-can-do-to-save-sea-turtles.pdf
+                </ol>
+            </div>
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script>
-    $(document).ready(function(){
-    $('.parallax').parallax();
-    });
-    </script>
-    </body>
+        <script>
+            $(document).ready(function() {
+                $('.parallax').parallax();
+            });
+        </script>
+</body>
+
 </html>
